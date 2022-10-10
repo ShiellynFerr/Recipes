@@ -1,4 +1,5 @@
 import React from 'react'
+import About from './components/about'
 import Home from './components/header'
 import LastRecipes from './components/LastRecipes'
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Home/>
     <LastRecipes/>
+    <About/>
     </>
   )
 }
